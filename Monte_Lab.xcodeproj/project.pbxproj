@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85AF0B0222EF826F00CDBACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF0B0122EF826F00CDBACB /* AppDelegate.swift */; };
+		85AF0B0422EF826F00CDBACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF0B0322EF826F00CDBACB /* ViewController.swift */; };
+		85AF0B0722EF826F00CDBACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AF0B0522EF826F00CDBACB /* Main.storyboard */; };
+		85AF0B0922EF827000CDBACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85AF0B0822EF827000CDBACB /* Assets.xcassets */; };
+		85AF0B0C22EF827000CDBACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AF0B0A22EF827000CDBACB /* LaunchScreen.storyboard */; };
+		85AF0B1722EF827000CDBACB /* Monte_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF0B1622EF827000CDBACB /* Monte_LabTests.swift */; };
+		85AF0B2222EF827000CDBACB /* Monte_LabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF0B2122EF827000CDBACB /* Monte_LabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85AF0B1322EF827000CDBACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85AF0AF622EF826F00CDBACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85AF0AFD22EF826F00CDBACB;
+			remoteInfo = Monte_Lab;
+		};
+		85AF0B1E22EF827000CDBACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85AF0AF622EF826F00CDBACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85AF0AFD22EF826F00CDBACB;
+			remoteInfo = Monte_Lab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85AF0AFE22EF826F00CDBACB /* Monte_Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monte_Lab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AF0B0122EF826F00CDBACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85AF0B0322EF826F00CDBACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85AF0B0622EF826F00CDBACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85AF0B0822EF827000CDBACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85AF0B0B22EF827000CDBACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85AF0B0D22EF827000CDBACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85AF0B1222EF827000CDBACB /* Monte_LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Monte_LabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AF0B1622EF827000CDBACB /* Monte_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monte_LabTests.swift; sourceTree = "<group>"; };
+		85AF0B1822EF827000CDBACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85AF0B1D22EF827000CDBACB /* Monte_LabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Monte_LabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AF0B2122EF827000CDBACB /* Monte_LabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monte_LabUITests.swift; sourceTree = "<group>"; };
+		85AF0B2322EF827000CDBACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85AF0AFB22EF826F00CDBACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF0B0F22EF827000CDBACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF0B1A22EF827000CDBACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85AF0AF522EF826F00CDBACB = {
+			isa = PBXGroup;
+			children = (
+				85AF0B0022EF826F00CDBACB /* Monte_Lab */,
+				85AF0B1522EF827000CDBACB /* Monte_LabTests */,
+				85AF0B2022EF827000CDBACB /* Monte_LabUITests */,
+				85AF0AFF22EF826F00CDBACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85AF0AFF22EF826F00CDBACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85AF0AFE22EF826F00CDBACB /* Monte_Lab.app */,
+				85AF0B1222EF827000CDBACB /* Monte_LabTests.xctest */,
+				85AF0B1D22EF827000CDBACB /* Monte_LabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85AF0B0022EF826F00CDBACB /* Monte_Lab */ = {
+			isa = PBXGroup;
+			children = (
+				85AF0B2F22EF831300CDBACB /* Supporting Files */,
+				85AF0B0322EF826F00CDBACB /* ViewController.swift */,
+				85AF0B0522EF826F00CDBACB /* Main.storyboard */,
+				85AF0B0822EF827000CDBACB /* Assets.xcassets */,
+				85AF0B0D22EF827000CDBACB /* Info.plist */,
+			);
+			path = Monte_Lab;
+			sourceTree = "<group>";
+		};
+		85AF0B1522EF827000CDBACB /* Monte_LabTests */ = {
+			isa = PBXGroup;
+			children = (
+				85AF0B1622EF827000CDBACB /* Monte_LabTests.swift */,
+				85AF0B1822EF827000CDBACB /* Info.plist */,
+			);
+			path = Monte_LabTests;
+			sourceTree = "<group>";
+		};
+		85AF0B2022EF827000CDBACB /* Monte_LabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85AF0B2122EF827000CDBACB /* Monte_LabUITests.swift */,
+				85AF0B2322EF827000CDBACB /* Info.plist */,
+			);
+			path = Monte_LabUITests;
+			sourceTree = "<group>";
+		};
+		85AF0B2F22EF831300CDBACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85AF0B0122EF826F00CDBACB /* AppDelegate.swift */,
+				85AF0B0A22EF827000CDBACB /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85AF0AFD22EF826F00CDBACB /* Monte_Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AF0B2622EF827000CDBACB /* Build configuration list for PBXNativeTarget "Monte_Lab" */;
+			buildPhases = (
+				85AF0AFA22EF826F00CDBACB /* Sources */,
+				85AF0AFB22EF826F00CDBACB /* Frameworks */,
+				85AF0AFC22EF826F00CDBACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monte_Lab;
+			productName = Monte_Lab;
+			productReference = 85AF0AFE22EF826F00CDBACB /* Monte_Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85AF0B1122EF827000CDBACB /* Monte_LabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AF0B2922EF827000CDBACB /* Build configuration list for PBXNativeTarget "Monte_LabTests" */;
+			buildPhases = (
+				85AF0B0E22EF827000CDBACB /* Sources */,
+				85AF0B0F22EF827000CDBACB /* Frameworks */,
+				85AF0B1022EF827000CDBACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85AF0B1422EF827000CDBACB /* PBXTargetDependency */,
+			);
+			name = Monte_LabTests;
+			productName = Monte_LabTests;
+			productReference = 85AF0B1222EF827000CDBACB /* Monte_LabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85AF0B1C22EF827000CDBACB /* Monte_LabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AF0B2C22EF827000CDBACB /* Build configuration list for PBXNativeTarget "Monte_LabUITests" */;
+			buildPhases = (
+				85AF0B1922EF827000CDBACB /* Sources */,
+				85AF0B1A22EF827000CDBACB /* Frameworks */,
+				85AF0B1B22EF827000CDBACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85AF0B1F22EF827000CDBACB /* PBXTargetDependency */,
+			);
+			name = Monte_LabUITests;
+			productName = Monte_LabUITests;
+			productReference = 85AF0B1D22EF827000CDBACB /* Monte_LabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85AF0AF622EF826F00CDBACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = EricM;
+				TargetAttributes = {
+					85AF0AFD22EF826F00CDBACB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					85AF0B1122EF827000CDBACB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 85AF0AFD22EF826F00CDBACB;
+					};
+					85AF0B1C22EF827000CDBACB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 85AF0AFD22EF826F00CDBACB;
+					};
+				};
+			};
+			buildConfigurationList = 85AF0AF922EF826F00CDBACB /* Build configuration list for PBXProject "Monte_Lab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85AF0AF522EF826F00CDBACB;
+			productRefGroup = 85AF0AFF22EF826F00CDBACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85AF0AFD22EF826F00CDBACB /* Monte_Lab */,
+				85AF0B1122EF827000CDBACB /* Monte_LabTests */,
+				85AF0B1C22EF827000CDBACB /* Monte_LabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85AF0AFC22EF826F00CDBACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AF0B0C22EF827000CDBACB /* LaunchScreen.storyboard in Resources */,
+				85AF0B0922EF827000CDBACB /* Assets.xcassets in Resources */,
+				85AF0B0722EF826F00CDBACB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF0B1022EF827000CDBACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF0B1B22EF827000CDBACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85AF0AFA22EF826F00CDBACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AF0B0422EF826F00CDBACB /* ViewController.swift in Sources */,
+				85AF0B0222EF826F00CDBACB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF0B0E22EF827000CDBACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AF0B1722EF827000CDBACB /* Monte_LabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF0B1922EF827000CDBACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AF0B2222EF827000CDBACB /* Monte_LabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85AF0B1422EF827000CDBACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85AF0AFD22EF826F00CDBACB /* Monte_Lab */;
+			targetProxy = 85AF0B1322EF827000CDBACB /* PBXContainerItemProxy */;
+		};
+		85AF0B1F22EF827000CDBACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85AF0AFD22EF826F00CDBACB /* Monte_Lab */;
+			targetProxy = 85AF0B1E22EF827000CDBACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85AF0B0522EF826F00CDBACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85AF0B0622EF826F00CDBACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85AF0B0A22EF827000CDBACB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85AF0B0B22EF827000CDBACB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85AF0B2422EF827000CDBACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85AF0B2522EF827000CDBACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85AF0B2722EF827000CDBACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Monte_Lab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Monte-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85AF0B2822EF827000CDBACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Monte_Lab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Monte-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85AF0B2A22EF827000CDBACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Monte_LabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Monte-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monte_Lab.app/Monte_Lab";
+			};
+			name = Debug;
+		};
+		85AF0B2B22EF827000CDBACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Monte_LabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Monte-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monte_Lab.app/Monte_Lab";
+			};
+			name = Release;
+		};
+		85AF0B2D22EF827000CDBACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Monte_LabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Monte-LabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Monte_Lab;
+			};
+			name = Debug;
+		};
+		85AF0B2E22EF827000CDBACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Monte_LabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Monte-LabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Monte_Lab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85AF0AF922EF826F00CDBACB /* Build configuration list for PBXProject "Monte_Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AF0B2422EF827000CDBACB /* Debug */,
+				85AF0B2522EF827000CDBACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85AF0B2622EF827000CDBACB /* Build configuration list for PBXNativeTarget "Monte_Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AF0B2722EF827000CDBACB /* Debug */,
+				85AF0B2822EF827000CDBACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85AF0B2922EF827000CDBACB /* Build configuration list for PBXNativeTarget "Monte_LabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AF0B2A22EF827000CDBACB /* Debug */,
+				85AF0B2B22EF827000CDBACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85AF0B2C22EF827000CDBACB /* Build configuration list for PBXNativeTarget "Monte_LabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AF0B2D22EF827000CDBACB /* Debug */,
+				85AF0B2E22EF827000CDBACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85AF0AF622EF826F00CDBACB /* Project object */;
+}

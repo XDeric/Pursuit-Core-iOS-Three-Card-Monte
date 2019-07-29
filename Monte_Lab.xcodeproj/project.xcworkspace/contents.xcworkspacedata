@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ThreeCardMonte.xcodeproj">
+      location = "self:Monte_Lab.xcodeproj">
    </FileRef>
 </Workspace>
